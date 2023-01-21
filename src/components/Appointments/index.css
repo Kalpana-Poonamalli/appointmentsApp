@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.a-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.a-inner-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 50%;
+}
+.inner-to_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.a-heading {
+  color: #171f46;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  color: #b5b7c4;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.input {
+  color: #171f46;
+  padding: 6px;
+  font-weight: 500;
+}
+.button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.image {
+  height: 200px;
+  width: 100%;
+  margin-left: 30px;
+}
+.hr {
+  font-weight: 600;
+  margin-top: 30px;
+  color: #171f46;
+}
+.a-heading2 {
+  color: #171f46;
+  font-size: 20px;
+}
+.a-bottom-container {
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.stared {
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.a-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}

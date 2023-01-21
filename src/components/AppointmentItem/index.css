@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.item-container {
+  list-style-type: none;
+  background-size: cover;
+  font-family: Roboto;
+  width: 36%;
+  margin: 5px;
+
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-radius: 16px;
+  border-width: 1px;
+  padding: 10px;
+}
+.head-star {
+  display: flex;
+  justify-content: space-between;
+}
+.item-head {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 600;
+}
+.star-button {
+  border: none;
+  background-color: transparent;
+}
+.item-date {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: 500;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+}
